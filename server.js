@@ -23,7 +23,7 @@ var articles={
                Content of my first article. Content of my first article. Content of my first article.
                Content of my first article. Content of my first article. Content of my first article.
            </p>
-           `
+           
     },
     articleTwo:{
         title: 'Article Two | Sayantan Sarkar',
