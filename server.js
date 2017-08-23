@@ -24,26 +24,9 @@ var articles={
                Content of my first article. Content of my first article. Content of my first article.
            </p>
            
-    },
-    articleTwo:{
-        title: 'Article Two | Sayantan Sarkar',
-        heading: 'Article Two',
-        date: '21 August 2017',
-        content: `
-            <p>
-               Content of my Second article. 
-               Content of my Second article. .
-           </p>
-           '                   `
-    },
+    }
     
-    articleThreee:{  title: 'Article Three | Sayantan Sarkar',
-    heading: 'Article Three',
-    date: '21 August 2017',
-    content: `<p>
-                       Content of my Third article. 
-                       Content of my Third article. .
-                   </p>' 
+     
    
 };
 
@@ -56,32 +39,8 @@ function createTemplate(data){
     var content=data.content;
     
 
-    var htmlTemplate =
-    <html>
-        <head>
-            <title>
-                ${title}
-            </title>
-    <link href="/ui/style.css" rel="stylesheet" />   
-        </head>
-        <body>
-          <div class = "container">
-            <div>
-                <a href="/">Home</a>>
-            </div>
-            <hr/>
-            <h3>
-                ${heading}
-            </h3>
-            <div>
-               ${date}
-            </div>
-            <div>
-                ${content}
-            </div>
-          </div>
-        </body>
-    </html>
+    var htmlTemplate = 
+    
     ;
     return htmlTemplate;
 }
