@@ -23,11 +23,25 @@ var articles={
                Content of my first article. Content of my first article. Content of my first article.
                Content of my first article. Content of my first article. Content of my first article.
            </p>`
- 
-           
+     },
+    articleTwo:{
+         title: 'Article Two | Sayantan Sarkar',
+        heading: 'Article Two',
+        date: '21 August 2017',
+        content:`
+            <p>
+                Content of my Second article. 
+            </p>`
     },
-    articleTwo:{},
-    articleThree:{}
+    articleThree:{
+        title: 'Article Three | Sayantan Sarkar',
+        heading: 'Article Three',
+        date: '21 August 2017',
+        content:`
+            <p>
+                Content of my Third article. 
+            </p>`
+    }
 };
 
 
