@@ -22,6 +22,7 @@ var articleOne={
                        Content of my first article. Content of my first article. Content of my first article.
                    </p>`
 }
+
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
@@ -35,6 +36,7 @@ function createTemplate(data){
             <title>
                 $(title)
             </title>
+             <link href="/ui/style.css" rel="stylesheet" />
         </head>
         <body>
             <div>
